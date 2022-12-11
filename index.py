@@ -3,6 +3,8 @@ loop_questions = False
 
 def check_bids(bid_no):
     empty_value = 0
+    
+    #user_id gets imported from another file
     winner = ""
     for items in bid_no:
         if empty_value < everyone[items]:
